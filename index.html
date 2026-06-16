@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="player">
+
+    <h1>🎵 Music Player</h1>
+
+    <img src="cover.jpg" id="cover">
+
+    <h2 id="title">My Song</h2>
+
+    <audio id="song">
+        <source src="music.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="buttons">
+        <button onclick="back()">⏮</button>
+        <button onclick="playPause()">▶️</button>
+        <button onclick="next()">⏭</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
